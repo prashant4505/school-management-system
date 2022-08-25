@@ -1,4 +1,5 @@
 # school-management-system
+site access url : https://iamprashant.pythonanywhere.com/
 I Developed this web page on django.
 To run it on localhost just use command 
 Python manage.py run server.
