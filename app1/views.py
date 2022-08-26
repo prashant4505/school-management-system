@@ -115,7 +115,7 @@ def login(request):
         staff_num=len(staff_num)
 
         myDict={'student_num':student_num,'staff_num':staff_num}
-        return render(request,'app1/dashboard.html',myDict)
+        return render(request,'app1/Dashboard.html',myDict)
 
 def deleteStudent(request):
     if request.method=='POST':
